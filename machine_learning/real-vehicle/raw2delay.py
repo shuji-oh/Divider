@@ -20,7 +20,7 @@ with open(params[1],'r') as f:
             break
         if '[packet_' == row[0:8]:
             if count > 2:
-                print('{:.4f}'.format(mean(sum_delay_list)),'{:.4f}'.format(stdev(sum_delay_list)),'{:.4f}'.format(variance(sum_delay_list)),'{:.4f}'.format(skew(sum_delay_list)),'{:.4f}'.format(kurtosis(sum_delay_list)),'{:.4f}'.format(max(sum_delay_list)),'{:.4f}'.format(min(sum_delay_list)),'{:.4f}'.format(rms(sum_delay_list)),'{:.4f}'.format(en(sum_delay_list)))
+                print('{:.4f}'.format(mean(sum_delay_list)),'{:.4f}'.format(stdev(sum_delay_list)),'{:.4f}'.format(variance(sum_delay_list)),'{:.4f}'.format(skew(sum_delay_list)),'{:.4f}'.format(kurtosis(sum_delay_list)),'{:.4f}'.format(max(sum_delay_list)),'{:.4f}'.format(rms(sum_delay_list)),'{:.4f}'.format(en(sum_delay_list)))
                 count_r += 1
             sum_delay_list.clear()
             count = 0
