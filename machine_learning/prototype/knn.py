@@ -16,7 +16,8 @@ from sklearn.model_selection import cross_val_score
 def main():
     df = pd.read_csv("delay_time.csv")
     #X = df[['mean','stdev','variance','skew','kurtosis','max','rms','en']]
-    X = df[['mean','max','rms']]
+    #X = df[['mean','max','rms']]
+    X = df[['mean','stdev']]
     Y = df['label'].map({'ECU0': 0, 'ECU1': 1, 'ECU2': 2, 'ECU3': 3, 'ECU4': 4, 'ECU5': 5, 'ECU6': 6})
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2, random_state = 0) # dividing the data to 80% as training data, 20% as testing data
     
