@@ -1,11 +1,22 @@
-# Divider
+Divider: Delay-Time Based Sender Identification in Automotive Networks
 ====
 
 ## Overview
 
-Divider is attacks detection method on CAN bus.
+Divider is sender Identification method on CAN bus.
 
-Shuji Ohira et al. "Divider: Delay-time based on Various ECU Identification and Attacker Detection in Controller Area Network"
+Shuji Ohira et al. "Divider: Delay-Time Based Sender Identification in Automotive Networks"
+
+```
+@inproceedings{ohira2020Divider,
+  title={Divider: Delay-Time Based Sender Identification in Automotive Networks},
+  author={Ohira, Shuji and Kibrom Desta, Araya and Arai, Ismail and Kitagawa, Tomoya and Fujikawa, Kazutoshi},
+  booktitle={IEEE Compsac Workshop},
+  pages={1--8},
+  year={2020},
+  organization={IEEE}
+}
+```
 
 ## Description
 
@@ -37,9 +48,8 @@ Divider
 
 ## Requirement
 
-python3
-gcc
-Quartus (Quartus Prime 17.0)
+python3  
+Quartus (Quartus Prime 17.0)  
 
 ## Usage (machine learning)
 
@@ -47,8 +57,6 @@ $ git clone https://github.com/ohirangosta/Divider
 $ cd machine_learning/prototype  
 $ python3 knn.py  
 
-## Contribution
-
 ## Author
 
-[rangosta](https://github.com/ohirangosta)
+[shuji-oh](https://github.com/shuji-oh)
