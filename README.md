@@ -3,7 +3,7 @@ Divider: Delay-Time Based Sender Identification in Automotive Networks
 
 ## Overview
 
-Divider is sender Identification method based on delay caused by CAN transceiver in CAN bus.
+Divider is sender Identification method based on delay caused by CAN transceiver.
 
 Shuji Ohira et al. "Divider: Delay-Time Based Sender Identification in Automotive Networks"
 
