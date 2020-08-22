@@ -53,7 +53,7 @@ Quartus (Quartus Prime 17.0)
 
 ## Usage (machine learning)
 
-$ git clone https://github.com/ohirangosta/Divider  
+$ git clone https://github.com/shuji-oh/Divider  
 $ cd machine_learning/prototype  
 $ python3 knn.py  
 
