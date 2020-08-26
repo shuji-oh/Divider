@@ -10,9 +10,9 @@ Shuji Ohira et al. "Divider: Delay-Time Based Sender Identification in Automotiv
 ```
 @inproceedings{ohira2020Divider,
   title={Divider: Delay-Time Based Sender Identification in Automotive Networks},
-  author={Ohira, Shuji and Kibrom Desta, Araya and Arai, Ismail and Kitagawa, Tomoya and Fujikawa, Kazutoshi},
-  booktitle={IEEE Compsac Workshop},
-  pages={1--8},
+  author={Ohira, Shuji and Kibrom Desta, Araya and Kitagawa, Tomoya and Arai, Ismail and Fujikawa, Kazutoshi},
+  booktitle={IEEE 44th Annual Computer Software and Applications Conference (COMPSAC)},
+  pages={1490--1497},
   year={2020},
   organization={IEEE}
 }
