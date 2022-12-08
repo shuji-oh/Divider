@@ -10,7 +10,7 @@ Divider is sender Identification method based on delay caused by CAN transceiver
 ```
 @inproceedings{ohira2020Divider,
   title={Divider: Delay-Time Based Sender Identification in Automotive Networks},
-  author={Ohira, Shuji and Kibrom Desta, Araya and Kitagawa, Tomoya and Arai, Ismail and Fujikawa, Kazutoshi},
+  author={Ohira, Shuji and Araya, Kibrom Desta and Kitagawa, Tomoya and Arai, Ismail and Fujikawa, Kazutoshi},
   booktitle={IEEE 44th Annual Computer Software and Applications Conference (COMPSAC)},
   pages={1490--1497},
   year={2020},
